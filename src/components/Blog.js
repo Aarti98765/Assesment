@@ -82,30 +82,4 @@ const Blog = () => {
 }    
 
 
-
-
-
-
-
-
-
-//     return (
-//         <div>
-//             <div className='blogView'>
-//                <label className='blogText'>BLOGS</label>
-//                 <div className='textView'>    
-//                     <p>Located in Mumbai, Godrej Archives is the Godrej group's business archive. The Archives collects, preserves and manages records covering 121 years of the company's history. The idea was</p>
-//                     <p>mooted in 1997, the group's centenary year, by Mr. Sohrab Godrej, former chairman of the Godrej group</p>
-//                 </div>
-//             </div>
-//             <div className='imageView'> 
-//                     {blogData.map(function(d){
-//                         return ( 
-//                          <img key={d.image} alt={d.image} className="imageCard" src={d.image} />)
-//                     })}
-//             </div>
-//         </div>
-//     )
-// }
-
 export default Blog;
